@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+
+    <environment include="Development">
+        <link href="~/lib/twitter-bootstrap/css/bootstrap.css" rel="stylesheet" />
+    </environment>
+    <environment exclude="Development">
+        <link href="~/lib/twitter-bootstrap/css/bootstrap.css" rel="stylesheet" />
+    </environment>
+
+    <link href="~/css/site.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        @RenderBody()
+    </div>
+    <script src="~/lib/jquery/jquery.js"></script>
+
+    @RenderSection("script", required: false)
+</body>
+</html>

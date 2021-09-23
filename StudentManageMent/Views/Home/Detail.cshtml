@@ -1,0 +1,36 @@
+﻿@model HomeDetailViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "学生详情页123";
+}
+
+<div class="row justify-content-center m-3">
+    <div class="col-sm-8">
+        <div class="card">
+            <div class="card-header">
+                <h1>@Model.student.Name</h1>
+            </div>
+            <div class="card-body text-center">
+                <img class="card-img-top" src="~/images/demo1.jpg" asp-append-version="true" />
+
+                <h4>学生Id:@Model.student.Id</h4>
+                <h4>邮箱:@Model.student.Email</h4>
+                <h4>班级名称:@Model.student.ClassName</h4>
+            </div>
+
+            <div class="card-footer text-center">
+                <a href="#" class="btn btn-primary">返回</a>
+                <a href="#" class="btn btn-primary">编辑</a>
+                <a href="#" class="btn btn-danger">删除</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+@section script{
+
+    <script src="~/js/test.js"></script>
+}
