@@ -36,5 +36,10 @@ namespace StudentManageMent.Controllers
 
             return View(homeDetailViewModel);
         }
+
+        public IActionResult Create()
+        {
+            return View();
+        }
     }
 }

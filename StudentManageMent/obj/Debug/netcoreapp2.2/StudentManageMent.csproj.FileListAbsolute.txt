@@ -30,3 +30,4 @@ E:\Study\Visual Studio\StudentManageMent\StudentManageMent\obj\Debug\netcoreapp2
 E:\Study\Visual Studio\StudentManageMent\StudentManageMent\bin\Debug\netcoreapp2.2\libman.json
 E:\Study\Visual Studio\StudentManageMent\StudentManageMent\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
 E:\Study\Visual Studio\StudentManageMent\StudentManageMent\obj\Debug\netcoreapp2.2\StudentManageMent.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study\Visual Studio\StudentManageMent\StudentManageMent\obj\Debug\netcoreapp2.2\Razor\Views\Home\Create.cshtml.g.cs
